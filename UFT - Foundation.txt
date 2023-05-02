@@ -1,0 +1,50 @@
+
+UFT ---> HP Unified Functional Testing (UFT) 
+
+Hp- UFT is functional/regression test automation tool which allows user to automate applications developed on different environments 
+like windows, Web, SAP, Mainframe etc.
+
+
+
+-------------------------------------
+		Important features of UFT 
+-------------------------------------
+
+- Can automate both GUI and API based applications
+-  It automates functional and regression test suites
+- Can generate reports after the test execution which can be used for analysis purposes by the testing team
+- UFT has various features which gives it capability to test web services and service virtualization.  
+- It has the facility to execute scripts within specific interval of time using task scheduler/crone job.
+
+
+
+-----------------------------------------------
+		Operations, performed while using UFT
+-----------------------------------------------
+
+1) Plan Test ---> Involves understanding the AUT 
+2) Create Test ---> Generating Test scripts using test objects.
+3) Enhance Test ---> Enhancing the script to make it more versatile in terms of perforimg the operation
+4) Build Test -----> Combining the relevant components from plan, create and enhance test phases. 
+
+
+
+
+PLAN TEST -----> 1) Understanding AUT 
+				 2) Configure Licence  -------------> Seat Licence, Concurrent Licence--->(Site Concurrent, Area Concurrent, Global Concurrent), Commuter Licence
+				 3) Install and Configure Add-Ins ----> Add-In is a utility which will help UFT understand the objects present in the AUT 
+													    created using multiple technologies.
+
+
+CREATE TEST -----> 1) Record and Playback ----> Using record option UFT users can build automation scripts automatically without having any knowledge of scripting
+				   2) Object Repository ------>  Whenever UFT captures test objects, it needs a place to keep those test objects so that they can be used later for preparing and executing test scripts.
+												Object repository is a placeholder/file which stores test object’s information i.e. the name of the object, the class to which it belongs, and the properties of the UI object to identify it uniquely.
+										       Types: ---> 1) Local Object Repository
+														   2) Shared Object Repository
+				   3) Step Generator 
+				   
+				   
+
+
+
+
