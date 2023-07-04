@@ -1,0 +1,96 @@
+-Data warehousing is the process of collecting raw data or business data and turning it into information that is useful and more meaningful. 
+The raw data is the records of the daily transaction of an organization such as interactions with customers, administration of finance, and 
+management of employee and so on.
+
+-Testing is very important for data warehouse systems to ensure it works correctly, efficiently and the data being populated is of the correct quality.
+
+
+Q. What is Data WareHosuing?
+-Datawarehousing combines data from multiple sources into one database which can be used for analysis.
+-The process of ETL (Extract Transform and Load) will help in extracting data from many dissimilar sources, transform data to a standard/uniform format 
+and then load into a data warehouse. 
+
+-----------------------------
+Features of Data Ware House 
+-----------------------------
+
+-Subject Oriented ----> We will get the same kind of data 
+-Integrated Data -----> We get data from the multiple sources 
+-Time Varient -------> Every 3-4 months the data keeps changing
+-Non -Volatile ---> Data does not change every time we get the same kind of data 
+
+
+--------------------------------------------
+		OLTP (Online Transaction Processing) -------> any Database (Day to day Transaction)
+		OLAP (Online Analytical Processing)  ------> Data Warehouse is basically called as OLAP
+-------------------------------------------- 
+
+
+
+ETL v/s Database Testing
+-----------------------------------
+- In database testing we need to focus on tables, relations, columns, data types etc
+- IN ETL Testing we need to focus on Data only.
+
+
+
+
+Data Model
+------------------------------
+Data Model tells how the logical structure of a database is modeled
+
+1) Conceptual Data Model 
+----> Important entites and realtionship among them 
+----> No attributes are specified 
+----> No keys 
+
+2) Logical Data Model  
+----> Important entites and realtionship among them
+----> All attributes for each entity are specified 
+----> Define Keys 
+3) Physical Data Model 
+----> Displays all the table and columns 
+----> Displays keys 
+----> Data Types
+
+	  Entity = Table 
+	  Attribute = Column 
+
+
+Terminologies	  
+------------------------
+1) Table --> Collection of rows and columns
+2) Fields --> COlumns
+3) Schema ---> Schema is a collection of entites(tables and their relationship)
+
+
+Types of Schemas(only for data-warehouse)
+-----------------
+1) Star Schema 
+------> All the tables belongs to a fact table (main table in middle) and dimensional tables around it.
+------> In fact table every column is a primary key and the corresponding column in the dimensional table should be foreign key.
+
+
+2) Snowflake Schema 
+-----> It is a extension of Star Schema 
+-----> 	A snowflake schema is a multi-dimensional data model that is an extension of a star schema, 
+		where dimension tables are broken down into subdimensions. 
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

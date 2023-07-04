@@ -48,3 +48,35 @@ CREATE TEST -----> 1) Record and Playback ----> Using record option UFT users ca
 
 
 
+
+
+
+
+
+-----------------------------------------------
+			Object repository Instances 
+-----------------------------------------------
+
+ If somehow we have to make any changes in the object's property value we can go and change it inside the object repository.
+ 
+
+Types ----> Design-Time Instance 
+			Run-Time Instance
+
+
+
+-- Design-Time Instances :-  Design time instance of the Object repository is the one that gets created whenever a script is recorded/when object repository is created. Below are the Design time instances
+
+a) Local Object Repository
+
+b) Shared Object Repository
+
+
+
+
+
+
+
+
+
+
